@@ -57,6 +57,7 @@ const UserList = () => {
 
   useEffect(() => {
     dispatch(FILTER_USERS({ users, search }));
+    console.log();
   }, [dispatch, users, search]);
   return (
     <section>
